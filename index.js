@@ -1,21 +1,16 @@
 (function() {
 
-    var body = document.body;
+    angular
+        .module('myApp', [])
+        .config(config)
+        .run(run);
 
-    run();
-    gun();
-    one_more_function();
-
-    function run() {
-        body.innerHTML = 'Hello git';
+    function config() {
+        console.log('config');
     }
 
-    function gun() {
-        console.log('putting something here');
-    }
-
-    function one_more_function() {
-        console.log('continue ahead');
+    function run($scope) {
+        console.log('hello');
     }
 
     function another_function() {
