@@ -18,4 +18,8 @@
         console.log('continue ahead');
     }
 
+    function another_function() {
+        
+    }
+
 })();
