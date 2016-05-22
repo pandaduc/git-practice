@@ -7,7 +7,11 @@
     one_more_function();
 
     function run() {
-        body.innerHTML = 'Hello git';
+        body.innerHTML = 'No more hello Git';
+    }
+
+    function sayPanda() {
+        body.innerHTML = 'Say Panda';
     }
 
     function gun() {
